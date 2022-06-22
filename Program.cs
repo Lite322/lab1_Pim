@@ -11,7 +11,11 @@ namespace lab1_Pim
             Console.WriteLine("z2 = -(m)^(-0,5)");
             Console.WriteLine("Введите m");
             double m = Convert.ToDouble(Console.ReadLine());
-
+            Console.WriteLine("Результат первой формулы:");
+            Console.WriteLine(Formuly.Form1(m));
+            Console.WriteLine("Результат второй формулы:");
+            Console.WriteLine(Formuly.Form2(m));
+            Console.ReadLine();
         }
     }
 }

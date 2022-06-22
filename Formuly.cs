@@ -1,17 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace lab1_Pim
 {
-    public class Formuly
+    public static class Formuly
     {
-        public double Form1(double m)
+        public static double Form1(double m)
         {
-            double znam = (Math.Pow(3 * m + 2, 2) - 24m) ^ (-0, 5) / 3 * (m) ^ (-0, 5) - 2 / (m) ^ (-0, 5);
-            return 0;
+            double chis = Math.Sqrt(Math.Pow(3 * m + 2, 2) - 24 * m);
+            double znam = (3 * Math.Sqrt(m)) - (2 / Math.Sqrt(m));
+            double z = chis / znam;
+            return z;
+        }
+
+        public static double Form2(double m)
+        {
+            double z = Math.Sqrt(m) * -1;
+            return z;
         }
     }
 }
